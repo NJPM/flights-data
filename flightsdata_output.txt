@@ -1,0 +1,30 @@
+    year  month  day  dep_time  ...  hour  minute       date manufacturer
+0   2013      1    1     517.0  ...   5.0    17.0 2013-01-01       BOEING
+1   2013      1    1     533.0  ...   5.0    33.0 2013-01-01       BOEING
+2   2013      1    1     542.0  ...   5.0    42.0 2013-01-01       BOEING
+3   2013      1    1     544.0  ...   5.0    44.0 2013-01-01       AIRBUS
+4   2013      1    1     554.0  ...   5.0    54.0 2013-01-01       BOEING
+5   2013      1    1     554.0  ...   5.0    54.0 2013-01-01       BOEING
+6   2013      1    1     555.0  ...   5.0    55.0 2013-01-01       AIRBUS
+7   2013      1    1     557.0  ...   5.0    57.0 2013-01-01     CANADAIR
+8   2013      1    1     557.0  ...   5.0    57.0 2013-01-01       AIRBUS
+9   2013      1    1     558.0  ...   5.0    58.0 2013-01-01          NaN
+10  2013      1    1     558.0  ...   5.0    58.0 2013-01-01       AIRBUS
+11  2013      1    1     558.0  ...   5.0    58.0 2013-01-01       AIRBUS
+12  2013      1    1     558.0  ...   5.0    58.0 2013-01-01       BOEING
+13  2013      1    1     558.0  ...   5.0    58.0 2013-01-01       BOEING
+14  2013      1    1     559.0  ...   5.0    59.0 2013-01-01          NaN
+
+[15 rows x 18 columns]
+
+User Story
+
+The number of days covered by the flights table is 365.
+
+The number of departure cities covered by the flights database is 3.
+
+The flights and planes tables are related by the tailnum column (the tail number of the plane doing the flight). The planes table provides details on the technical aspects of the plane by which the flight was undertaken.
+
+The aeroplane manufacturer with the highest number of individual flight delays is AIRBUS, however the manufacturer with the highest combined total length of delays is EMBRAER.
+
+The two most connected cities are JFK and LAX.
